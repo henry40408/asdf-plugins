@@ -61,3 +61,6 @@
 [submodule "yarn"]
 	path = yarn
 	url = https://github.com/twuni/asdf-yarn.git
+[submodule "skaffold"]
+	path = skaffold
+	url = https://github.com/virtualstaticvoid/asdf-skaffold
