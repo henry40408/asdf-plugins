@@ -64,3 +64,6 @@
 [submodule "skaffold"]
 	path = skaffold
 	url = https://github.com/virtualstaticvoid/asdf-skaffold
+[submodule "buildpack"]
+	path = buildpack
+	url = https://github.com/johnlayton/asdf-buildpack
