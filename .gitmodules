@@ -67,3 +67,6 @@
 [submodule "buildpack"]
 	path = buildpack
 	url = https://github.com/johnlayton/asdf-buildpack
+[submodule "fzf"]
+	path = fzf
+	url = https://github.com/kompiro/asdf-fzf
