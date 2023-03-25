@@ -73,3 +73,6 @@
 [submodule "neovim"]
 	path = neovim
 	url = https://github.com/richin13/asdf-neovim
+[submodule "nomad"]
+	path = nomad
+	url = https://github.com/asdf-community/asdf-hashicorp
