@@ -1,33 +1,35 @@
-# asdf-repository
+# asdf-plugins
 
-> :warning: All plugins in this repository are reviewed by my bare eyes. Use with caution.
+> :warning: All the plugins in this repository have been reviewed by me with my own eyes. Please use them with caution.
 
-## Why create this repository?
+## What is the reason for creating this repository?
 
-I want to review and lock asdf plugins at certain commit and asdf does not provide such feature:
+I wish to review and lock asdf plugins at a certain commit, but asdf does not offer such a feature.
 
 - [Versioning of plugins #166](https://github.com/asdf-vm/asdf/issues/166)
 
-## How to Use?
+## How do I use it?
 
-First, install [asdf](https://github.com/asdf-vm/asdf). Let's assume it is installed on `~/.asdf`.
+First, you need to install [asdf](https://github.com/asdf-vm/asdf). Let's assume it is installed in `~/.asdf`.
 
 ```bash
 $ cd ~/.asdf
-$ mv plugins plugins.old # if you already have any plugins installed
+$ mv plugins plugins.old # If you already have any plugins installed,
 $ git clone https://github.com/henry40408/asdf-plugins.git --branch plugins plugins
-$ git checkout [commit] # I strongly suggest you pick a commit and checkout from this repository
+$ git checkout [commit] # I strongly recommend that you select a commit and check out from this repository.
 $ git submodule init
 $ git submodule update
 ```
 That's all.
 
-## Why do you put plugins in branch named plugins?
+## Why do you place the plugins in another branch called "plugins"?
 
-asdf doesn't exclude files like `LICENSE.txt` and `README.md` from plugins, so when we run command such as `asdf reshim`, an error like the following occurs:
+asdf does not exclude files such as `LICENSE.txt` and `README.md` from plugins. Therefore, when we run a command such as `asdf reshim`, an error like the following may occur:
+
 ```
 No such plugin: LICENSE.txt
 ```
+
 ## License
 
 MIT
