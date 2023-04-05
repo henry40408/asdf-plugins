@@ -76,3 +76,6 @@
 [submodule "nomad"]
 	path = nomad
 	url = https://github.com/asdf-community/asdf-hashicorp
+[submodule "faas-cli"]
+	path = faas-cli
+	url = https://github.com/zekker6/asdf-faas-cli
