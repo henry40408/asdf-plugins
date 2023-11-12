@@ -79,3 +79,6 @@
 [submodule "faas-cli"]
 	path = faas-cli
 	url = https://github.com/zekker6/asdf-faas-cli
+[submodule "lazygit"]
+	path = lazygit
+	url = https://github.com/nklmilojevic/asdf-lazygit
